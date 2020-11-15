@@ -32,18 +32,21 @@ header {
     float: right;
 }
 
-
-
 .pict-wrapper {
     padding-top: 150px;
     background-color: #f0fff0;
     text-align: center;
 }
 
-.header-right a {
-    margin: 40px 50px;
+.link {
+    padding: 20px 10px;
+    margin: 30px 30px;
     float: left;
     color: white;
+}
+
+.link:hover {
+    opacity: 0.8;
 }
 
 .intro-wrapper {
