@@ -30,8 +30,9 @@ header {
 
 .header-right {
     float: right;
-    color: #ffffff;
 }
+
+
 
 .pict-wrapper {
     padding-top: 150px;
@@ -39,10 +40,10 @@ header {
     text-align: center;
 }
 
-li {
-    margin: 30px 50px;
+.header-right a {
+    margin: 40px 50px;
     float: left;
-    list-style: none;
+    color: white;
 }
 
 .intro-wrapper {
@@ -60,8 +61,13 @@ li {
     background-color: #f0fff0;
 }
 
-.section-title {
+h2 {
     border-bottom: 3px solid #5f5f5f;
+}
+
+.section-title {
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 .btn {
