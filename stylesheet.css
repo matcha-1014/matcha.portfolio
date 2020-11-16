@@ -64,6 +64,11 @@ header {
     background-color: #f0fff0;
 }
 
+.skill-wrapper {
+    padding: 60px 0;
+    background-color: #f0fff0;
+}
+
 h2 {
     border-bottom: 3px solid #5f5f5f;
 }
