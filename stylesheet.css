@@ -91,12 +91,23 @@ h2 {
     opacity: 1;
 }
 
+.btn:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
 .twitter {
     background-color: #55acee;
 }
 
 .github {
     background-color: #24292e;
+}
+
+.test {
+    background-color: aquamarine;
+    cursor: pointer;
 }
 
 .fa {
