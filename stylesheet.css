@@ -7,7 +7,9 @@ a{
 }
 
 .container {
-    padding: 0px 15px;
+    width: 100%;
+    max-width: 960px;
+    padding: 60px 0px;
     margin: 0 auto;
 }
 
@@ -50,22 +52,18 @@ header {
 }
 
 .intro-wrapper {
-    padding: 50px 0 30px 0;
     background-color: #f0fff0;
 }
 
 .carrer-wrapper {
-    padding: 60px 0;
     background-color: #f0fff0;
 }
 
 .contact-wrapper {
-    padding: 60px 0;
     background-color: #f0fff0;
 }
 
 .skill-wrapper {
-    padding: 60px 0;
     background-color: #f0fff0;
 }
 
