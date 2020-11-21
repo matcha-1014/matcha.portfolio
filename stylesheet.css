@@ -7,7 +7,9 @@ a{
 }
 
 .container {
-    padding: 0px 15px;
+    width: 100%;
+    max-width: 960px;
+    padding: 60px 0px;
     margin: 0 auto;
 }
 
@@ -25,43 +27,54 @@ header {
     height: 100px;
     float: left;
     padding: 5px 0 0 30px;
-    color: #ffffff;
+    color: white;
 }
 
 .header-right {
     float: right;
-    color: #ffffff;
 }
 
 .pict-wrapper {
-    padding-top: 150px;
+    padding-top: 100px;
     background-color: #f0fff0;
     text-align: center;
 }
 
-li {
-    margin: 30px 50px;
+.link {
+    padding: 10px 10px;
+    margin: 30px 30px;
     float: left;
-    list-style: none;
+    color: white;
+}
+
+.link:hover {
+    opacity: 0.8;
+    border-bottom: 3px solid #f0fff0;
 }
 
 .intro-wrapper {
-    padding: 50px 0 30px 0;
     background-color: #f0fff0;
 }
 
 .carrer-wrapper {
-    padding: 60px 0;
     background-color: #f0fff0;
 }
 
 .contact-wrapper {
-    padding: 60px 0;
     background-color: #f0fff0;
 }
 
-.section-title {
+.skill-wrapper {
+    background-color: #f0fff0;
+}
+
+h2 {
     border-bottom: 3px solid #5f5f5f;
+}
+
+.section-title {
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 .btn {
@@ -77,8 +90,22 @@ li {
     opacity: 1;
 }
 
+.btn:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
 .twitter {
     background-color: #55acee;
+}
+
+.github {
+    background-color: #24292e;
+}
+
+.note {
+    background-color: #2cb696;
 }
 
 .fa {

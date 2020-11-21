@@ -5,58 +5,76 @@
     <title>Matcha's Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
 
   <body>
     <header>
-      <div class="container">
-        <div class="header-left">
-            <h1>Matcha's Portfolio</h1>
-        </div>
-        <div class="header-right">
-            <ul>
-            <li>Introduction</li>
-            <li>Carrer</li>
-            <li>Contact</li>
-            </ul>
-        </div>
+      <div class="header-left">
+          <h1>Matcha's Portfolio</h1>
+      </div>
+      <div class="header-right">
+        <a class="link" href="https://matcha-1014.github.io/matcha.portfolio/">Home</a>
+        <a class="link" href="#intro">Introduction</a>
+        <a class="link" href="#car">Carrer</a>
+        <a class="link" href="#cont">Contact</a>
       </div>
     </header>
 
-    <div class="pict-wrapper">
+    <section class="pict-wrapper">
       <div class="container">
-        <img src="images/top_image.JPG?raw=true" height="512", width="768">
+        <img src="images/top_image.JPG" height="512", width="768">
       </div>
-    </div>
+    </section>
 
-    <div class="intro-wrapper">
+    <section class="intro-wrapper">
       <div class="container">
-        <h2 class="section-title">自己紹介</h2>
+        <h2 id="intro" class="section-title">自己紹介</h2>
         <h3>名前: matcha</h3>
         <h3>年齢: 24</h3>
         <h3>一言: Webエンジニアを目指しています。フロント、サーバー両方に携われるようになりたいです。</h3>
       </div>
-    </div>
+    </section>
 
-    <div class="carrer-wrapper">
+    <section class="carrer-wrapper">
       <div class="container">
-        <h2 class="section-title">キャリア</h2>
-        <h3>2015年: 法政大学情報科学部コンピュータ科学科 入学</h3>
-        <h3>2019年: 法政大学情報科学部コンピュータ科学科 卒業</h3>
-        <h3>2020年: ProgateでHTML & CSS、JavaScript、Gitを学習。現在レベル66。</h3>
+        <h2 id="car"class="section-title">キャリア</h2>
+        <h3>2015年 4月: 法政大学情報科学部コンピュータ科学科 入学</h3>
+        <h3>2019年 3月: 法政大学情報科学部コンピュータ科学科 卒業</h3>
+        <h3>2020年現在: ProgateでHTML & CSS、JavaScript、Gitを学習。現在レベル74。</h3>
       </div>
-    </div>
+    </section>
 
-    <div class="contact-wrapper">
+    <section class="skill-wrapper">
       <div class="container">
-        <h2 class="section-title">コンタクト</h2>
+        <h2 class="section-title">スキル</h2>
+        <h3>C++) PaizaのBランク問題を70点台で解けるレベル</h3>
+        <h3>HTML & CSS) Progate中級編まで学習済み</h3>
+        <h3>JavaScript) Progateで4章まで学習済み</h3>
+        <h3>JQuery) Progateで初級編まで学習済み</h3>
+        <h3><br />基本情報技術者の勉強も並行して行っています。</h3>
+      </div>
+    </section>
+
+    <section class="contact-wrapper">
+      <div class="container">
+        <h2 id="cont"class="section-title">コンタクト</h2>
         <div class="btn-wrapper">
-          <h3>Twitter</h3>
-          <a href="https://twitter.com/matchaEngineer", target="_brank", class="btn twitter">
-            <span class="fa fa-twitter"></span>フォローはこちらから
-          </a>
+            <h3>Twitter</h3>
+            <a href="https://twitter.com/matchaEngineer" , target="_brank" class="btn twitter">
+                <span class="fa fa-twitter"></span>フォローはこちらから
+            </a>
+            <h3>GitHub</h3>
+            <a href="https://github.com/matcha-1014" , target="_brank" class="btn github">
+                <span class="fa fa-github"></span>GitHubを見る
+            </a>
+            <h3>note</h3>
+            <a href="https://note.com/matcha_engineer" , target="_brank" class="btn note">
+                <span class="fa fa-clipboard"></span>noteを見る
+            </a>
         </div>
       </div>
-    </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
