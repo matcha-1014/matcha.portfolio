@@ -25,7 +25,7 @@ header {
     opacity: 0.8;
     position: fixed;
     top: 0;
-    box-shadow: 0px 4px #001000;
+    box-shadow: 0px 4px 4px #001000;
 }
 
 .header-left {
@@ -41,7 +41,6 @@ header {
 
 .pict-wrapper {
     padding-top: 70px;
-    background-color: #f0fff0;
     text-align: center;
 }
 
@@ -60,20 +59,12 @@ header {
     border-bottom: 3px solid #f0fff0;
 }
 
-.intro-wrapper {
-    background-color: #f0fff0;
+body section:nth-of-type(odd) {
+    background-color: #fafffa;
 }
 
-.carrer-wrapper {
-    background-color: #f0fff0;
-}
-
-.contact-wrapper {
-    background-color: #f0fff0;
-}
-
-.skill-wrapper {
-    background-color: #f0fff0;
+section {
+    border: #e0f0e0 solid 1px;
 }
 
 h2 {
@@ -93,7 +84,7 @@ h2 {
     border-radius: 16px;
     display: inline-block;
     opacity: 0.9;
-    box-shadow: 0px 4px #202050;
+    box-shadow: 0px 4px 4px #505050;
 }
 
 .btn:hover {
