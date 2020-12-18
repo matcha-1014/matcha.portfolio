@@ -26,17 +26,17 @@ header {
     position: fixed;
     top: 0;
     box-shadow: 0px 4px 4px #001000;
+    display: flex;
+    justify-content: space-around;
 }
 
 .header-left {
     margin-top: -7px;
-    float: left;
     padding-left: 30px;
     color: white;
 }
 
 .header-right {
-    float: right;
 }
 
 .pict-wrapper {
@@ -111,21 +111,4 @@ h2 {
 
 .fa {
     margin: 5px;
-}
-
-.product {
-    display: flex;
-    justify-content: space-between;
-}
-
-.product-text {
-    width: 40%;
-}
-
-.product-text p{
-    padding-top: 10px;
-}
-
-.product img {
-    width: 400px;
 }
