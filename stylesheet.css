@@ -60,6 +60,16 @@ header {
     border-bottom: 3px solid #f0fff0;
 }
 
+.link-bar {
+    display: none;
+    color: white;
+}
+
+.fa-bars {
+    width: 10px;
+    height: 10px;
+}
+
 body section:nth-of-type(odd) {
     background-color: #fafffa;
 }
@@ -140,3 +150,14 @@ h2 {
 
 .product img {
     width: 400px;
+}
+
+@media (max-width: 768px) {
+    .link-bar {
+        display: block;
+    }
+
+    .links {
+        display: none;
+    }
+}
