@@ -8,11 +8,16 @@ a{
 }
 
 ul {
+    padding: 0;
     list-style: none;
 }
 
 h1 {
     margin: 0;
+}
+
+img {
+    vertical-align: bottom;
 }
 
 .container {
@@ -63,11 +68,21 @@ header {
 .link-bar {
     display: none;
     color: white;
+    cursor: pointer;
 }
 
-.fa-bars {
-    width: 10px;
-    height: 10px;
+.overlay {
+    display: none;
+    pointer-events: none;
+}
+
+.overlay.show {
+    display: block;
+    pointer-events: auto;
+}
+
+#close {
+    cursor: pointer;
 }
 
 body section:nth-of-type(odd) {
@@ -150,9 +165,16 @@ h2 {
 
 .product img {
     width: 400px;
+
+    transition-property: border;
 }
 
-@media (max-width: 768px) {
+.product img:hover {
+    border: 1px solid #aaaaaa;
+    box-sizing: border-box;
+}
+
+@media (max-width: 896px) {
     .link-bar {
         display: block;
     }
